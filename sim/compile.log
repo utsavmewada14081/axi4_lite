@@ -1,0 +1,16 @@
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+Start time: 16:51:12 on Sep 22,2026
+vlog -reportprogress 300 -sv -mfcu ../tb/axi4_lite_tb_top.sv -l compile.log 
+** Note: (vlog-2286) ../tb/axi4_lite_tb_top.sv(3): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package axi4_lite_tb_top_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package axi4_lite_pkg
+-- Compiling package axi4_lite_pkg
+-- Compiling module axilite_s
+-- Compiling interface axi_if
+-- Compiling module axi4_lite_top
+
+Top level modules:
+	axi4_lite_top
+End time: 16:51:13 on Sep 22,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
